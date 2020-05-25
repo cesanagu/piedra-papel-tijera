@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Piedra/Papel/Tijera</title>
+</head>
+
+<body>
+  <header>
+    <h1>Jueguemos a Piedra, Papel o Tijera</h1>
+  </header>
+  <main>
+
+    <h1>¡Crees que le ganes a la compu!</h1>
+    <br>
+    <div class="container-form">
+      <div class="form1">
+        <div class="choices">
+          <label for="op1">Player1</label>
+          <select id="op1">
+            <option value="piedra">Piedra</option>
+            <option value="papel">Papel</option>
+            <option value="tijera">Tijera</option>
+          </select>
+        </div>
+        <div class="choices">
+          <label for="">PC</label>
+          <div id="pc-choice"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <button type="button" onclick="piedra()">Quién gana?</button>
+
+  </main>
+  <div id="resultado"></div>
+  <div class="resp">
+  </div>
+</body>
+<script src="js/index.js" charset="utf-8"></script>
+
+</html>

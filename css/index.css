@@ -1,0 +1,94 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/690/792/original/rock-paper-scissors-hand-icons.jpg);
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+header{
+  text-align:center;
+}
+
+main{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form1{
+  display: flex;
+  justify-content: center;
+}
+
+.choices{
+  display: flex;
+  margin: 0 15px;
+  flex-direction: column;
+}
+
+label{
+  color: #fff;
+  padding: 5px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+select, #pc-choice{
+  cursor: pointer;
+  /* width: 200px; */
+  font-weight: 400;
+  border: 2px solid #fff;
+  background-color: dodgerblue;
+  font-size: 20px;
+  border-radius: 10px;
+  color: #000;
+  padding: 5px 10px;
+}
+
+button{
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #01dfb9;
+  padding: 10px;
+}
+
+button:hover{
+  background-color: #01afdf;
+}
+
+#resultado{
+  color: #000;
+  font-size: 25px;
+  background-color: rgba(255,255,255,0.7);
+  padding: 5px;
+  border: 2px solid #fff;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.img-resp{
+  display: none;
+}
+
+@media (max-width: 600px) {
+
+  body{
+    background-color: #27006f;
+    background-image: none;
+  }
+
+.resp{
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/690/792/original/rock-paper-scissors-hand-icons.jpg);
+  background-size: cover;
+  height: 150px;
+  background-position: center;
+  margin-top: 35px;
+}
+
+}
