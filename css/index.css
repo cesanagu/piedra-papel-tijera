@@ -5,6 +5,7 @@ body{
   background-size: cover;
   font-family: 'Lato', sans-serif;
   color: #fff;
+  font-weight: 400;
 }
 
 header{
@@ -37,8 +38,6 @@ label{
 
 select, #pc-choice{
   cursor: pointer;
-  /* width: 200px; */
-  font-weight: 400;
   border: 2px solid #fff;
   background-color: dodgerblue;
   font-size: 20px;
